@@ -18,6 +18,7 @@
 		0B4FDF4717B37CEB00099995 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B4FDF4617B37CEB00099995 /* Default-568h@2x.png */; };
 		0B4FDF4A17B37CEB00099995 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B4FDF4917B37CEB00099995 /* ViewController.m */; };
 		0B4FDF4D17B37CEB00099995 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0B4FDF4B17B37CEB00099995 /* ViewController.xib */; };
+		0BC50F6017B380F8001CD488 /* testObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BC50F5F17B380F8001CD488 /* testObj.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		0B4FDF4817B37CEB00099995 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		0B4FDF4917B37CEB00099995 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		0B4FDF4C17B37CEB00099995 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		0BC50F5E17B380F8001CD488 /* testObj.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testObj.h; sourceTree = "<group>"; };
+		0BC50F5F17B380F8001CD488 /* testObj.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testObj.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				0B4FDF4917B37CEB00099995 /* ViewController.m */,
 				0B4FDF4B17B37CEB00099995 /* ViewController.xib */,
 				0B4FDF3717B37CEB00099995 /* Supporting Files */,
+				0BC50F5E17B380F8001CD488 /* testObj.h */,
+				0BC50F5F17B380F8001CD488 /* testObj.m */,
 			);
 			path = test;
 			sourceTree = "<group>";
@@ -176,6 +181,7 @@
 				0B4FDF3D17B37CEB00099995 /* main.m in Sources */,
 				0B4FDF4117B37CEB00099995 /* AppDelegate.m in Sources */,
 				0B4FDF4A17B37CEB00099995 /* ViewController.m in Sources */,
+				0BC50F6017B380F8001CD488 /* testObj.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,6 +302,7 @@
 				0B4FDF5217B37CEB00099995 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
