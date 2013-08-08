@@ -20,6 +20,11 @@
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
+-(void)setup
+{
+    
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
